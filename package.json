@@ -1,0 +1,28 @@
+{
+  "name": "express-mongoose",
+  "version": "1.0.0",
+  "description": "ejemplo de uso de mongoose y express segun el articulo https://medium.freecodecamp.org/introduction-to-mongoose-for-mongodb-d2a7aa593c57",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcidAndroid/express-mongoose.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose"
+  ],
+  "author": "kell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AcidAndroid/express-mongoose/issues"
+  },
+  "homepage": "https://github.com/AcidAndroid/express-mongoose#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "mongoose": "^5.1.4",
+    "validator": "^10.3.0"
+  }
+}
