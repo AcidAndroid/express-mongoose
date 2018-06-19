@@ -22,7 +22,7 @@
   "homepage": "https://github.com/AcidAndroid/express-mongoose#readme",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "mongoose": "^5.1.4",
+    "mongoose": "^5.1.5",
     "validator": "^10.3.0"
   }
 }

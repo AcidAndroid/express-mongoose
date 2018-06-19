@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 require('dotenv').load();
 
-const server = process.env.SERVER
+const server = process.env.MONGOSVR
 const database = process.env.DATABASE
 
 class Database{
     constructor(){
-        mongoose.connect(`${server}\ ${database}`)
+        mongoose.connect(`${server}`)
         .then(()=>{
             console.log('Conectado a la BD')
         })
